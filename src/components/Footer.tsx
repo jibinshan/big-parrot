@@ -29,7 +29,7 @@ const Footer = ({ }) => {
                         </Link>
                     </div>
                     <div className="w-full flex flex-col md:flex-row items-start justify-center gap-5 md:gap-0">
-                        <div className="w-full md:w-1/2 flex flex-col gap-2 md:gap-5 items-start justify-center">
+                        <div className="w-full md:w-1/2 flex flex-col gap-2 md:gap-5 items-center md:items-start justify-center">
                             <p className="w-full md:w-2/3 text-[#D3AF5E] font-cormorant font-[600] uppercase text-xl md:text-xl text-center tracking-[3px]">Address</p>
                             <div className="flex flex-col gap-1">
                                 <Link href="https://maps.app.goo.gl/3c776tRDmvogSitG8" target="_blank" className="text-[#ECE6D6] tracking-[3px] text-center uppercase font-cormorant text-xl md:text-xl font-[600]">
