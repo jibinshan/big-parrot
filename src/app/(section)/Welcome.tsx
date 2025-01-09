@@ -147,25 +147,25 @@ const WelcomeRes = ({ }) => {
                     <div className="w-full flex flex-col items-center justify-center gap-5 md:gap-20">
                         <div className="w-full md:w-3/4 flex flex-col justify-start items-start">
                             <p className="w-full text-3xl text-primary-foreground font-cormorant font-[400] leading-[35px] uppercase">
-                                Every day, tapas in manchester offers delicious Tapas made with the freshest and highest quality meats. With carefully selected fresh meats, we promise to bring the unique flavors of Spanish cuisine to life. Quality and freshness are our passions, so every dish on our menu is designed to provide you with an unforgettable dining experience
+                                Every day, tapas in manchester offers delicious Tapas made with the freshest and highest quality meats. With carefully selected fresh meats, we promise to bring the unique flavors of Spanish cuisine to life. Quality and freshness are our passions, so every dish on our menu is designed to provide you with an unforgettable dining experience
                             </p>
                         </div>
-                        <div className="w-full md:w-3/4 flex gap-2 items-center md:justify-between">
-                            <div className="flex flex-col gap-3">
-                                <p className="w-full md:max-w-[60%] text-2xl md:text-7xl uppercase text-primary-foreground font-playfair font-[400]">1,280+</p>
-                                <p className="w-full text-xl text-primary-foreground font-cormorant font-[400]">
+                        <div className="w-full md:w-3/4 flex flex-col md:flex-row gap-2 items-center justify-center md:justify-between">
+                            <div className="flex flex-col md:gap-3">
+                                <p className="w-full text-center md:text-start md:max-w-[60%] text-4xl md:text-7xl uppercase text-primary-foreground font-playfair font-[400]">1,280+</p>
+                                <p className="w-full text-center md:text-start text-xl text-primary-foreground font-cormorant font-[400]">
                                     Customers
                                 </p>
                             </div>
-                            <div className="flex flex-col gap-3">
-                                <p className="w-full md:max-w-[60%] text-2xl md:text-7xl uppercase text-primary-foreground font-playfair font-[400]">100%</p>
-                                <p className="w-full text-xl text-primary-foreground font-cormorant font-[400]">
+                            <div className="flex flex-col md:gap-3">
+                                <p className="w-full text-center md:text-start md:max-w-[60%] text-4xl md:text-7xl uppercase text-primary-foreground font-playfair font-[400]">100%</p>
+                                <p className="w-full text-center md:text-start text-xl text-primary-foreground font-cormorant font-[400]">
                                     Proven Quality
                                 </p>
                             </div>
-                            <div className="flex flex-col gap-3">
-                                <p className="w-full md:max-w-[60%] text-2xl md:text-7xl uppercase text-primary-foreground font-playfair font-[400]">36+</p>
-                                <p className="w-full text-xl text-primary-foreground font-cormorant font-[400]">
+                            <div className="flex flex-col md:gap-3">
+                                <p className="w-full text-center md:text-start md:max-w-[60%] text-4xl md:text-7xl uppercase text-primary-foreground font-playfair font-[400]">36+</p>
+                                <p className="w-full text-center md:text-start text-xl text-primary-foreground font-cormorant font-[400]">
                                     Tapas Types
                                 </p>
                             </div>
