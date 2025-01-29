@@ -1,11 +1,12 @@
 import Image from "next/image";
 
-const BavetteStory = ({ }) => {
+const BavetteStory = ({}) => {
   return (
-    <section className="relative flex h-full w-full items-center justify-center lg:py-16 p-4">
+    <section className="relative flex h-full w-full items-center justify-center p-4 lg:py-16">
       <div className="flex h-full w-full flex-col items-center justify-center gap-11">
-        <h2 className="font-playfair text-8xl text-[#262626] md:left-[15%] md:text-8xl text-center">
-          The Bruncho<br />
+        <h2 className="text-center font-playfair text-8xl text-[#262626] md:left-[15%] md:text-8xl">
+          The BigParrot
+          <br />
           Story
         </h2>
         <div className="flex h-full w-full flex-col items-center justify-center gap-4 md:flex-row lg:px-24 lg:py-20">
@@ -15,19 +16,31 @@ const BavetteStory = ({ }) => {
               width={6024}
               height={4024}
               alt="private dining"
-              className="md:h-[600px] w-full rounded-lg md:rounded-none object-cover"
+              className="w-full rounded-lg object-cover md:h-[600px] md:rounded-none"
             />
           </div>
           <div className="flex h-full w-full flex-col items-center gap-[2.5rem] p-6 md:w-1/2 md:items-start lg:ml-24">
-            <h1 className="max-w-[500px] text-center font-playfair text-6xl sm:text-7xl md:text-start text-black">
-              From Dream<br />
+            <h1 className="max-w-[500px] text-center font-playfair text-6xl text-black sm:text-7xl md:text-start">
+              From Dream
+              <br />
               to Sizzle
             </h1>
             <p className="max-w-[450px] text-center font-light leading-[160%] text-black md:text-start">
-              Bruncho began as a dream to create a space where coffee and cakes could bring people together. Inspired by the warmth of community and the love for rich flavors, we crafted a cozy café where every visit feels like coming home. From the aroma of freshly brewed coffee to the sight of our handcrafted cakes, Bruncho is designed to awaken your senses and spark joy.
+              BigParrot began as a vision to create a space where vibrant
+              flavors and shared moments bring people together. Inspired by the
+              rich traditions of tapas and the joy of communal dining, we
+              crafted a lively and welcoming restaurant where every visit feels
+              like a celebration. From the sizzling aroma of our freshly
+              prepared dishes to the vibrant energy of our space, BigParrot is
+              designed to delight your senses and create lasting memories.
               <br />
               <br />
-              Over the years, we’ve grown into a haven for meaningful conversations and cherished moments. Whether it’s a quiet morning with your favorite brew or a lively gathering over sweet treats, Bruncho is here to make every visit special. With every sip and bite, we strive to make your day a little brighter.
+              Over time, we’ve grown into a go-to destination for those who love
+              great food, good company, and unforgettable experiences. Whether
+              you’re enjoying a casual evening with friends, a festive
+              gathering, or exploring bold new flavors, BigParrot is here to
+              make every moment special. With every bite and every toast, we
+              strive to bring people together, one plate at a time.
             </p>
           </div>
         </div>

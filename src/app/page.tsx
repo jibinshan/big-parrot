@@ -1,4 +1,3 @@
-'use client'
 import Navbar from "@/components/Navbar";
 import Hero from "./(section)/Hero";
 import Welcome from "./(section)/Welcome";
@@ -15,7 +14,6 @@ import ViewMenu from "@/components/floating-buttons/ViewMenu";
 import Blog from "./(section)/Blog";
 
 export default function HomePage() {
-
   return (
     <main className="relative flex h-full w-full">
       <div className="flex h-full w-full flex-col items-center justify-center">
@@ -36,6 +34,6 @@ export default function HomePage() {
       <div className="fixed bottom-8 right-8 z-50 hidden md:flex">
         <ViewMenu />
       </div>
-    </main >
+    </main>
   );
 }
