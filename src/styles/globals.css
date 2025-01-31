@@ -70,25 +70,45 @@
 }
 
 .theme-custom {
-  --background: 0, 0%, 98%;
+  --background: 0 0% 3%;
   --foreground: 36 18% 70%;
-  --card: 0, 0%, 98%;
+  --card: 0 0% 3%;
   --card-foreground: 36 18% 70%;
-  --popover: 0, 0%, 98%;
+  --popover: 0 0% 3%;
   --popover-foreground: 36 18% 70%;
-  --primary: 344, 71%, 21%;
-  --primary-foreground: 345, 77%, 41%;
+  --primary: 38 41% 55%;
+  --primary-foreground: 0 0% 3%;
   --secondary: 35 84% 90%;
-  --secondary-foreground: 0, 0%, 98%;
+  --secondary-foreground: 0 0% 3%;
   --muted: 0 0% 80%;
   --muted-foreground: 36 18% 70%;
   --accent: 35 84% 90%;
-  --accent-foreground: 0, 0%, 98%;
+  --accent-foreground: 0 0% 3%;
   --destructive: 0 62% 30%;
   --destructive-foreground: 33 18% 10%;
   --border: 0 0% 60%;
   --input: 0 0% 80%;
   --ring: 35 84% 60%;
+
+  /* menu Checkout Start */
+
+  --menubackground: 0, 0%, 100%;
+  --menuforeground: 0, 0%, 100%;
+  --menuprimary: 345.31, 77.42%, 51.37%;
+  --menusecondary: 0, 0%, 0%;
+  --buttonhover: 42, 73%, 41%;
+  --itembackground: 43.2, 100%, 95.1%;
+  --menuprimaryforeground: 36, 18%, 70%;
+  --menusecondaryforeground: 0, 0%, 100%;
+  --itemdescription: 60, 0.51%, 38.63%;
+  --itembutton: 0, 0%, 9%;
+  --buttondisabled: 0, 0%, 17%;
+  --mobilebg: 0, 0%, 100%;
+  --menuwhite: 0, 0%, 100%;
+  --borderinput: 0, 0%, 7.45%;
+  --tabbg: 0, 0%, 8.63%;
+  --inputbg: 0, 0%, 4.71%;
+  --placeholder: 36, 18%, 70%;
 }
 
 /* Scrolling Text Start */

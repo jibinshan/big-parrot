@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { type Metadata } from "next";
 import { Inter, Playfair_Display, Cormorant } from "next/font/google";
 import Providers from "@/app/Providers";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "BigParrot",
@@ -32,18 +33,22 @@ const inter = Inter({
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  console.log("layout");
   return (
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "theme-custom font-inter flex min-h-screen text-[#FBEAD2] antialiased",
+          "theme-custom flex min-h-screen font-inter text-[#FBEAD2] antialiased",
           cormorant.variable,
           playfair.variable,
           inter.variable,
         )}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          <Navbar position="absolute" />
+          {children}
+        </Providers>
       </body>
-    </html >
+    </html>
   );
 }

@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
               variant="outline"
               size="lg"
             >
-              <Link href="/table-booking">book table</Link>
+              <p>book table</p>
             </Button>
           </Link>
         </div>
