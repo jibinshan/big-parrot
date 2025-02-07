@@ -55,7 +55,7 @@ const Contact = ({}) => {
       toast(
         (t) => (
           <div className="flex flex-col items-center justify-center gap-2">
-            <p className="text-center">
+            <p className="text-center text-black">
               Your reservation request has been successfully submitted to the
               restaurant!
             </p>
