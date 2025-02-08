@@ -125,7 +125,7 @@ const Footer = ({}) => {
             className="w-fit items-center justify-start px-0 py-0 text-start font-cormorant text-xl font-[600] uppercase text-[#ECE6D6] md:text-5xl"
             asChild
           >
-            <Link href="/" className="tracking-[3px]">
+            <Link href="/gallery" className="tracking-[3px]">
               Gallery
             </Link>
           </Button>
