@@ -4,7 +4,7 @@ const BavetteStory = ({}) => {
   return (
     <section className="relative flex h-full w-full items-center justify-center p-4 lg:py-16">
       <div className="flex h-full w-full flex-col items-center justify-center gap-11">
-        <h2 className="text-center font-playfair text-8xl text-[#262626] md:left-[15%] md:text-8xl">
+        <h2 className="text-center font-playfair text-8xl text-[#fff] md:left-[15%] md:text-8xl">
           The BigParrot
           <br />
           Story
@@ -20,12 +20,12 @@ const BavetteStory = ({}) => {
             />
           </div>
           <div className="flex h-full w-full flex-col items-center gap-[2.5rem] p-6 md:w-1/2 md:items-start lg:ml-24">
-            <h1 className="max-w-[500px] text-center font-playfair text-6xl text-black sm:text-7xl md:text-start">
+            <h1 className="max-w-[500px] text-center font-playfair text-6xl text-[#fff] sm:text-7xl md:text-start">
               From Dream
               <br />
               to Sizzle
             </h1>
-            <p className="max-w-[450px] text-center font-light leading-[160%] text-black md:text-start">
+            <p className="max-w-[450px] text-center font-light leading-[160%] text-[#fff] md:text-start">
               BigParrot began as a vision to create a space where vibrant
               flavors and shared moments bring people together. Inspired by the
               rich traditions of tapas and the joy of communal dining, we

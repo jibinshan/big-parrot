@@ -80,7 +80,7 @@ const Contact = ({}) => {
     },
   });
   return (
-    <section className="flex h-full w-full items-center justify-center md:mt-32">
+    <section className="flex h-full w-full items-center justify-center bg-white md:mt-32">
       <div className="flex h-full w-full flex-col items-center justify-center gap-[2.5rem] px-0 pl-0 md:px-2">
         <div className="flex w-full flex-col lg:flex-row">
           <div
@@ -109,7 +109,10 @@ const Contact = ({}) => {
                     asChild
                     className="px-1 py-1 hover:bg-transparent"
                   >
-                    <Link href="https://www.instagram.com/bigparrotuk/">
+                    <Link
+                      href="https://www.instagram.com/bigparrotuk/"
+                      target="_blank"
+                    >
                       <span className="sr-only">Instagram</span>
                       <Icons.instagram />
                     </Link>
@@ -129,7 +132,10 @@ const Contact = ({}) => {
                     asChild
                     className="px-1 py-1 hover:bg-transparent"
                   >
-                    <Link href="https://maps.app.goo.gl/sLVM6Dzr39HDM6rY9">
+                    <Link
+                      href="https://maps.app.goo.gl/sLVM6Dzr39HDM6rY9"
+                      target="_blank"
+                    >
                       <span className="sr-only">Google</span>
                       <Icons.google />
                     </Link>
@@ -139,7 +145,10 @@ const Contact = ({}) => {
                     asChild
                     className="px-1 py-1 hover:bg-transparent"
                   >
-                    <Link href="https://www.tripadvisor.com/Restaurant_Review-g187069-d27936764-Reviews-Big_Parrot_Tapas_Bar-Manchester_Greater_Manchester_England.html">
+                    <Link
+                      href="https://www.tripadvisor.com/Restaurant_Review-g187069-d27936764-Reviews-Big_Parrot_Tapas_Bar-Manchester_Greater_Manchester_England.html"
+                      target="_blank"
+                    >
                       <span className="sr-only">Tripadvisor</span>
                       <Icons.tripAdvisor />
                     </Link>
@@ -149,7 +158,10 @@ const Contact = ({}) => {
                     asChild
                     className="px-1 py-1 hover:bg-transparent"
                   >
-                    <Link href="https://www.facebook.com/bigparrotuk/">
+                    <Link
+                      href="https://www.facebook.com/bigparrotuk/"
+                      target="_blank"
+                    >
                       <span className="sr-only">Facebook</span>
                       <Icons.facebook />
                     </Link>
@@ -222,13 +234,19 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="https://maps.app.goo.gl/sLVM6Dzr39HDM6rY9">
+                  <Link
+                    href="https://maps.app.goo.gl/sLVM6Dzr39HDM6rY9"
+                    target="_blank"
+                  >
                     <p className="font-inter text-black">
                       448C Barlow Moor Road,
                       <br /> Chorlton/Manchester M210BQ
                     </p>
                   </Link>
-                  <Link href="https://maps.app.goo.gl/sLVM6Dzr39HDM6rY9">
+                  <Link
+                    href="https://maps.app.goo.gl/sLVM6Dzr39HDM6rY9"
+                    target="_blank"
+                  >
                     <p className="flex gap-2 text-sm text-[#b3b3aa]">
                       <span>Get Direction</span>
                       <MoveRight />

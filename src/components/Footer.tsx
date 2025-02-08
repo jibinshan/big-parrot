@@ -15,24 +15,28 @@ const Footer = ({}) => {
           <div className="flex items-center justify-start gap-4">
             <Link
               href="https://www.instagram.com/bigparrotuk/"
+              target="_blank"
               className="text-[#ECE6D6]"
             >
               <Icons.instagram />
             </Link>
             <Link
               href="https://www.tripadvisor.com/Restaurant_Review-g187069-d27936764-Reviews-Big_Parrot_Tapas_Bar-Manchester_Greater_Manchester_England.html"
+              target="_blank"
               className="text-[#ECE6D6]"
             >
               <Icons.tripAdvisor />
             </Link>
             <Link
               href="https://maps.app.goo.gl/sLVM6Dzr39HDM6rY9"
+              target="_blank"
               className="text-white"
             >
               <Icons.google className="text-[#ECE6D6]" />
             </Link>
             <Link
               href="https://www.facebook.com/bigparrotuk/"
+              target="_blank"
               className="text-[#ECE6D6]"
             >
               <Icons.facebook />
@@ -90,7 +94,9 @@ const Footer = ({}) => {
             </div>
           </div>
           <span className="text-center font-cormorant text-lg font-[600] uppercase italic text-[#ECE6D6]">
-            <Link href={"https://foodo.ai"}>Powerd by foodo</Link>
+            <Link href={"https://foodo.ai"} target="_blank">
+              Powerd by foodo
+            </Link>
           </span>
         </div>
       </div>

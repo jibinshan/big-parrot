@@ -98,6 +98,7 @@ const ConnectWithUs = ({}) => {
         <div className="absolute left-0 top-0 z-40 flex h-full w-full items-center justify-center">
           <Link
             href="https://www.instagram.com/bigparrotuk/"
+            target="_blank"
             className="flex w-fit items-center justify-center gap-1 rounded-full bg-primary px-4 py-4 font-playfair text-sm font-[500] capitalize text-[#ECE6D6] md:gap-2 md:px-8 md:py-6 md:text-2xl md:tracking-[0.553px]"
           >
             <Icons.instagram className="h-5 w-5 text-primary-foreground md:h-full md:w-full" />
