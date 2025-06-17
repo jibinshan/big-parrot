@@ -105,9 +105,9 @@ const WelcomeRes = ({ }) => {
     }, [])
 
     return (
-        <section id="welcome" className="relative flex flex-col w-full items-center justify-center bg-background overflow-hidden">
+        <section id="welcome" className="relative flex flex-col w-full items-center justify-center overflow-hidden bg-[#fdfdfd]">
 
-            <div className="relative flex flex-col lg:flex-row gap-9 lg:gap-0 h-fit w-full items-center justify-center px-4 md:px-3 bg-background py-12 lg:py-24 overflow-hidden z-40">
+            <div className="relative flex flex-col lg:flex-row gap-9 lg:gap-0 h-fit w-full items-center justify-center px-4 md:px-3 bg-[#fdfdfd] py-12 lg:py-24 overflow-hidden z-40">
                 <div className="absolute w-full h-full left-0 top-0 py-12 md:py-24">
                     <div className="h-full w-full"
                         style={{

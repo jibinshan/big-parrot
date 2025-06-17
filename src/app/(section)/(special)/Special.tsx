@@ -115,7 +115,7 @@ const Special = ({}) => {
       <div className="z-40 flex h-full w-full max-w-[1300px] flex-col items-center justify-center gap-4">
         {/* <h3 className="special-one font-open uppercase md:-ml-[50px] text-primary">NEW</h3> */}
         <div className="flex w-full items-center justify-start">
-          <p className="rounded-full border-[1px] border-[#f095ac] px-5 py-3 text-center font-cormorant text-3xl font-[300] capitalize text-[#3A000F]">
+          <p className="rounded-full border-[1px] border-[#f095ac] px-5 py-3 text-center font-cormorant text-3xl font-[300] capitalize text-white">
             Our Menu
           </p>
         </div>
