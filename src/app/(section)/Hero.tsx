@@ -5,7 +5,7 @@ import React from "react";
 const HeroSection: React.FC = () => {
   return (
     <section className="sticky top-0 w-full">
-      <div className="relative flex h-[100vh] w-full items-center justify-center px-4 py-12 md:py-24">
+      <div className="relative flex h-[100vh] w-full items-center justify-center px-1 py-12 md:py-24">
         <div className="absolute left-0 top-0 h-full w-full overflow-hidden">
           <video
             className="min-h-full min-w-full object-cover"
