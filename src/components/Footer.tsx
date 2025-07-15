@@ -7,7 +7,7 @@ const Footer = ({}) => {
   return (
     <footer
       id="footer"
-      className="z-20 grid h-full w-full grid-cols-1 items-center justify-center md:h-[100vh] md:grid-cols-3"
+      className="z-20 grid h-full w-full grid-cols-1 items-center justify-center md:h-[99vh] md:grid-cols-3"
     >
       <div className="col-span-2 h-full">
         <div className="flex h-full w-full flex-col items-center justify-between gap-12 bg-[#1b040a] px-2 pb-7 pt-12 md:gap-16 md:px-[100px] md:pt-24">
